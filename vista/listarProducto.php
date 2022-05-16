@@ -2,7 +2,6 @@
 require_once('../controlador/controladorProducto.php');
 $controladorProducto = new controladorProducto();
 $listarProducto = $controladorProducto->listarProducto();
-//var_dump($listarCategoria);
 ?>
 <!DOCTYPE html>
 <html lang="en">
